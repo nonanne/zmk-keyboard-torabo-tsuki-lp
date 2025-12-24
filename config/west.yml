@@ -4,35 +4,26 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: sekigon-gonnoc
       url-base: https://github.com/sekigon-gonnoc
-
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.2
       import: app/west.yml
-
-    # revision: v0.2に固定
     - name: zmk-component-bmp-boost
       remote: sekigon-gonnoc
-      revision: v0.2
       import: west.yml
-
-    # ↓↓↓ ここから「main追従」→「成功時SHA固定」
+      revision: v0.2
     - name: zmk-feature-status-led
       remote: sekigon-gonnoc
-      revision: df1e324
-
+      revision: main
     - name: zmk-driver-paw3222
       remote: sekigon-gonnoc
-      revision: 7c5099d
-
+      revision: main
     - name: zmk-feature-cdc-acm-bootloader-trigger
       remote: sekigon-gonnoc
-      revision: 37ca1ef
-
+      revision: v0.2
     - name: zmk-feature-non-lipo-battery-management
       remote: sekigon-gonnoc
-      revision: aa5b958
-
+      revision: main
   self:
     path: config
