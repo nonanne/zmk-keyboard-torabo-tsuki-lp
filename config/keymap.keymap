@@ -39,11 +39,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans   &trans   &trans        &trans        &trans                      &trans            &trans           &trans           &trans            &trans      &trans
-&trans  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5                      &kp HOME          &kp PG_UP        &kp UP           &kp END           &kp ESCAPE  &trans
-&trans  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10     &trans  &trans  &kp LEFT          &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT         &kp TAB     &trans
-&trans  &kp F11  &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &msc MOVE_X(-20)  &msc MOVE_X(20)  &msc MOVE_Y(20)  &msc MOVE_Y(-20)  &kp PIPE    &trans
-&trans  &trans   &trans   &trans        &trans        &trans      &trans  &trans  &bt BT_CLR_ALL    &trans           &trans           &trans            &trans      &trans
+&trans  &trans   &trans   &trans        &trans        &trans                                &trans           &trans           &trans            &trans     &trans      &trans
+&trans  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5                                &kp HOME         &kp PG_UP        &kp UP            &kp END    &kp ESCAPE  &trans
+&trans  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10     &trans  &trans            &kp LEFT         &kp LEFT_ARROW   &kp DOWN_ARROW    &kp RIGHT  &kp TAB     &trans
+&trans  &kp F11  &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &msc MOVE_X(-20)  &msc MOVE_X(20)  &msc MOVE_Y(20)  &msc MOVE_Y(-20)  &trans     &kp PIPE    &trans
+&trans  &trans   &trans   &trans        &mkp MB4      &mkp MB5    &trans  &trans            &bt BT_CLR_ALL   &trans           &trans            &trans     &trans      &trans
             >;
         };
     };
