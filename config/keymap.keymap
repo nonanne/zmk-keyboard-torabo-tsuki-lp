@@ -19,11 +19,11 @@
 
         layer_0 {
             bindings = <
-&trans  &trans     &trans            &trans              &trans     &trans                                                             &trans       &trans  &trans            &trans         &trans          &trans
-&trans  &kp Q      &kp W             &kp E               &kp R      &kp T                                                              &kp Y        &kp U   &kp I             &kp O          &mt ESC EQUAL   &trans
-&trans  &kp A      &kp S             &kp D               &kp F      &kp G      &trans                    &trans                        &kp H        &kp J   &kp K             &kp L          &kp P           &trans
-&trans  &kp Z      &kp X             &kp C               &kp V      &kp B      &mt LEFT_BRACKET MINUS    &mt RIGHT_BRACKET UNDERSCORE  &kp N        &kp M   &kp SINGLE_QUOTE  &kp SEMICOLON  &kp PERIOD      &trans
-&trans  &kp LCTRL  &mt LEFT_WIN TAB  &mt LEFT_ALT SPACE  &mkp LCLK  &mkp RCLK  &mt LEFT_SHIFT BACKSPACE  &lt 1 COMMA                   &lt 2 ENTER  &trans  &trans            &trans         &mt CLCK SLASH  &trans
+&trans  &trans     &trans            &trans              &trans     &trans                                                         &trans       &trans  &trans            &trans         &trans          &trans
+&trans  &kp Q      &kp W             &kp E               &kp R      &kp T                                                          &kp Y        &kp U   &kp I             &kp O          &mt ESC EQUAL   &trans
+&trans  &kp A      &kp S             &kp D               &kp F      &kp G      &trans                    &trans                    &kp H        &kp J   &kp K             &kp L          &kp P           &trans
+&trans  &kp Z      &kp X             &kp C               &kp V      &kp B      &mt SLASH MINUS           &mt BACKSLASH UNDERSCORE  &kp N        &kp M   &kp SINGLE_QUOTE  &kp SEMICOLON  &kp PERIOD      &trans
+&trans  &kp LCTRL  &mt LEFT_WIN TAB  &mt LEFT_ALT SPACE  &mkp LCLK  &mkp RCLK  &mt LEFT_SHIFT BACKSPACE  &lt 1 COMMA               &lt 2 ENTER  &trans  &trans            &trans         &mt CLCK SLASH  &trans
             >;
         };
 
